@@ -1,0 +1,72 @@
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    font-family: 'Cutive Mono', monospace;
+    margin: 0;
+    padding: 0;
+
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+}
+
+#container {
+    padding: 50px 0;
+    width: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#name {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#face {
+    text-align: center;
+    padding: 0;
+}
+
+#links > ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+
+#links > ul > li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    border-right: 1px solid #000;
+}
+
+#links > ul > li:last-child {
+    border: none;
+}
+
+#links > ul > li > a{
+    color: #000;
+}
+
+noscript > p{
+    color: red;
+    text-align: center;
+}

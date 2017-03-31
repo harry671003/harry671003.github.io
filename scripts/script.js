@@ -3,17 +3,17 @@ var config = {
     links: [
         {
             label: 'blog',
-            url: 'https://uglyhelmet.in',
+            url: 'https://uglyhelmet.in'
         },
         {
             label: 'instagram',
-            url: 'https://instagram.com/uglyhelmet',
+            url: 'https://instagram.com/uglyhelmet'
         },
         {
             label: 'github',
-            url: 'https://github.com/harry671003',
+            url: 'https://github.com/harry671003'
         },
-    ],
+    ]
 };
 
 function PageController() {}

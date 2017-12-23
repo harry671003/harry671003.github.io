@@ -2,16 +2,16 @@ var config = {
     name: 'Harry John',
     links: [
         {
-            label: 'blog',
-            url: 'https://uglyhelmet.in'
+            label: 'github',
+            url: 'https://github.com/harry671003'
         },
         {
             label: 'instagram',
             url: 'https://instagram.com/uglyhelmet'
         },
         {
-            label: 'github',
-            url: 'https://github.com/harry671003'
+            label: 'linkedIn',
+            url: 'https://www.linkedin.com/in/harry671003'
         },
     ]
 };

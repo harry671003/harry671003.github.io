@@ -18,23 +18,43 @@
 
 <body>
   <div id='container'>
-    <div id='face'>
-      <img src='./images/0D2210AA-746D-4E5D-8444-25D2CB993264.jpeg'/>
-    </div>
-    <div id='name'>
+    <div class='padding'>
+      <div id='face'>
+        <img src='./images/0D2210AA-746D-4E5D-8444-25D2CB993264.jpeg'/>
+      </div>
+      <div id='name'>
+        <noscript>
+          <h1>Harry John</h1>
+        </noscript>
+        <h1 id='name-holder'> <!-- name will be set from the script --></h1>
+      </div>
+      <div id='desc'>
+        <p>Full time software engineer. Part time student.</p>
+        <p>Lover of AI and ML.</p>
+      </div>
+      <div id='resume'>
+        <div class='section'>
+          <h3>Work</h3>
+          <p>Software Engineer: Microsoft (2015 - Present)</p>
+        </div>
+        <div class='section'>
+          <h3>Side Projects</h3>
+          <p><a href="https://npmjs.com/ng2-appinsights">ng2-appinsights</a>: App insights logging for Angular 2+ apps.</p>
+        </div>
+        <div class='section'>
+          <h3>Education</h3>
+          <p>B-Tech: Amrita Vishwa Vidyappetham (2011 - 15)</p>
+        </div>
+      </div>
+      <div id='links'>
+        <ul id='links-holder'>
+          <!-- links will be filled from the script -->
+        <ul>
+      </div>
       <noscript>
-        <h1>Harry John</h1>
+          <p>Oops, scripts are disabled!</p>
       </noscript>
-      <h1 id='name-holder'> <!-- name will be set from the script --></h1>
     </div>
-    <div id='links'>
-      <ul id='links-holder'>
-        <!-- links will be filled from the script -->
-      <ul>
-    </div>
-    <noscript>
-        <p>Oops, scripts are disabled!</p>
-      </noscript>
   </div>
   <script src='./scripts/script.js'></script>
 </body>

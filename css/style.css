@@ -44,6 +44,10 @@ body {
     padding: 0;
 }
 
+#face img {
+    width: 150px;    
+}
+
 #links > ul {
     list-style: none;
     text-align: center;

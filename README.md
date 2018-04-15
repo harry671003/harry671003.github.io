@@ -51,5 +51,5 @@ Skills
 - Cloud - Azure CosmosDB, Azure Storage, Azure Search, Azure SQL, Azure Active Directory, Web Apps, Web Jobs, Functions, Service Bus Queue
 - Tools - npm, git, TSLint, karma, 
 - Backend - NodeJS, ASP.NET Core, 
-- Software Design and Architecture - Design patterns, Object Oriented Design Principles, Domain Driven Design, Microservices, SOA
+- Software Design and Architecture - Design patterns, Object Oriented Design Principles, Domain Driven Design, Microservices, SOA, REST
   

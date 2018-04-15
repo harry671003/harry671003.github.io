@@ -17,7 +17,7 @@ Professional Experience
     - Coded the UI for third party offers search page in Angular JS.
     - The system is hosted on Azure infrastructure and comprises of 2 microservices, a NoSQL DB, a Service Bus queue and 3 WebJobs.
   - Partner Operations And Support Experience (2016)
-    - An admin tool which enables Partner Center support and operations team to unblock Microsoft’s partners.
+    - An admin tool which enables Partner Center support and operations team to unblock Microsoft's partners.
     - Built the core framework of this tool using opensource toolings - webpack, tslint, karma, npm etc.
     - Coded a major portion of the tool in Angular 2 and TypeScript.
     - Automated the continous integration and deployment using VSTS.

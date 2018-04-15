@@ -1,13 +1,7 @@
 Harry John
 ==========
+City: Hyderabad, India | E-mail: harry671003@gmail.com | Website: https://harryjohn.io
 
-E-mail: harry671003@gmail.com 
-
-Website: https://harryjohn.io
-
-City: Hyderabad, India
-
-_______________________
 
 Professional Experience
 -----------------------
@@ -31,14 +25,12 @@ Professional Experience
     - Built the microservice for querying and filtering the events using ASP.NET.
     - Indexed the events data using Azure Search.
     - Automated the Azure infrastructure creation using Azure Resource Manager templates and powershell.
-    
-__________________________
+
 
 Education
 ---------
 Bachelor of Technology in Computer Science from Amrita Vishwa Vidyapeetham (2011 - 2015)
 
-_________________________
 
 Side Projects
 -------------
@@ -52,7 +44,6 @@ Side Projects
   - Used Raspberry Pi, RFID sensors and real-time data processing tools from Microsoft Azure to develop the prototype.
   - After processing, the notifications are sent to an android phone via firebase.
   
-_________________________
   
 Skills
 ------------

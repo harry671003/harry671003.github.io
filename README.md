@@ -7,11 +7,12 @@ Professional Experience
 -----------------------
 - Microsoft (2015 June - Now)
   - Microsoft Dev Center (2018)
-    - Built RMM Level 3 complaint REST APIs to enable partners such as NVDIA, AMD, Intel, Qualcomm etc to automate their driver submission workflows. in Dev Center. Time taken to submit a driver and get it signed was brought down from 2 days to less than 2 hours.
+    - Built RMM Level 3 complaint REST APIs to enable partners such as NVDIA, AMD, Intel, Qualcomm etc to automate their driver submission workflows in Dev Center.
+    - Time taken to submit a driver and get it signed was brought down to less than 2 hours from 2 days.
     - Implemented authentication and authorization for the same using Azure Active Directory.
     - APIs are built on ASP.NET Core 2 and scales well with heavy demands in Dev Center.
   - Third Party Service Offers in Microsoft Partner Center (2017)
-    - Enabled Microsoft’s partners to sell third party products (Docusign, Adobe Sign etc) via Partner Center.
+    - Enabled Microsoft's partners to sell third party products (Docusign, Adobe Sign etc) via Partner Center.
     - Implemented the notification job that raises a webhook notification to the ISV system, informing them of a purchase event. Used event driven architecture using service bus topics and subscriptions for this.
     - Coded the UI for third party offers search page in Angular JS.
     - The system is hosted on Azure infrastructure and comprises of 2 microservices, a NoSQL DB, a Service Bus queue and 3 WebJobs.

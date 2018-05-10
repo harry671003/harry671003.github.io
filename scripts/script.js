@@ -21,7 +21,7 @@ var config = {
             items: [
                 {
                     label: 'Software Engineer',
-                    desc: 'Microsoft (2015 - Present)',
+                    desc: 'Microsoft (June 2015 - May 2018)',
                 },
             ],
         },

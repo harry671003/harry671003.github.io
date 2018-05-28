@@ -3,6 +3,10 @@ var config = {
     about: 'Full time software engineer. Part time student.',
     links: [
         {
+            label: 'blog',
+            url: 'https://medium.com/@harry671003'
+        },
+        {
             label: 'github',
             url: 'https://github.com/harry671003'
         },
@@ -13,6 +17,10 @@ var config = {
         {
             label: 'instagram',
             url: 'https://instagram.com/uglyhelmet'
+        },
+        {
+            label: 'twitter',
+            url: 'https://twitter.com/harry671003'
         },
     ],
     resumeSections: [

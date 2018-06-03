@@ -28,6 +28,10 @@ var config = {
             title: 'Work',
             items: [
                 {
+                    label: 'Software Development Engineer II',
+                    desc: 'Amazon (June 2018 - Present)',
+                },
+                {
                     label: 'Software Engineer',
                     desc: 'Microsoft (June 2015 - May 2018)',
                 },

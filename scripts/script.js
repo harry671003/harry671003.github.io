@@ -4,7 +4,7 @@ var config = {
     links: [
         {
             label: 'blog',
-            url: 'https://medium.com/@harry671003'
+            url: 'https://medium.com/harrys-blog'
         },
         {
             label: 'github',

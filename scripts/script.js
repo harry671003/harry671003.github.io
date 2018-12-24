@@ -1,10 +1,10 @@
 var config = {
     name: 'Harry John',
-    about: 'Full time software engineer. Part time student.',
+    about: 'Ninja Software Engineer',
     links: [
         {
             label: 'blog',
-            url: 'https://medium.com/harrys-blog'
+            url: '/blog'
         },
         {
             label: 'github',

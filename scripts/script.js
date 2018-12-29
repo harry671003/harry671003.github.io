@@ -1,69 +1,3 @@
-var config = {
-    name: 'Harry John',
-    about: 'Ninja Software Engineer',
-    links: [
-        {
-            label: 'blog',
-            url: '/blog'
-        },
-        {
-            label: 'github',
-            url: 'https://github.com/harry671003'
-        },
-        {
-            label: 'linkedIn',
-            url: 'https://www.linkedin.com/in/harry671003'
-        },
-        {
-            label: 'instagram',
-            url: 'https://instagram.com/uglyhelmet'
-        },
-        {
-            label: 'twitter',
-            url: 'https://twitter.com/harry671003'
-        },
-    ],
-    resumeSections: [
-        {
-            title: 'Work',
-            items: [
-                {
-                    label: 'Software Development Engineer II',
-                    desc: 'Amazon (June 2018 - Present)',
-                },
-                {
-                    label: 'Software Engineer',
-                    desc: 'Microsoft (June 2015 - May 2018)',
-                },
-            ],
-        },
-        {
-            title: 'Side Projects',
-            items: [
-                {
-                    label: 'S.Y.L (Sylphrena)',
-                    url: 'https://github.com/harry671003/syl-core',
-                    desc: 'Building a bot with better context management. (2018)',
-                },
-                {
-                    label: 'ng2-appinsights',
-                    url: 'https://www.npmjs.com/package/ng2-appinsights',
-                    desc: 'App insights logging for Angular 2+ apps. (2017)',
-                },
-            ],
-        },
-        {
-            title: 'Education',
-            items: [
-                {
-                    label: 'B-Tech',
-                    desc: 'Amrita Amrita Vishwa Vidyapeetham (2011 - 15)',
-                }
-            ],
-        },
-    ],
-};
-
 function PageController() {}
 
 /**
@@ -90,11 +24,11 @@ PageController.prototype.setLinks = function(element, links) {
 }
 
 /**
- * Builds resume sections
+ * Builds the sections
  * @param {any} element - element
  * @param {any} links - links
  */
-PageController.prototype.buildResume = function(element, resumeSections) {
+PageController.prototype.buildSections = function(element, sections) {
     var createSectionHeader = function(title) {
         var header = document.createElement('h3');
         var titleText = document.createTextNode(title);
@@ -116,7 +50,7 @@ PageController.prototype.buildResume = function(element, resumeSections) {
             label = document.createTextNode(sectionItem.label);
         }
         var desc = document.createTextNode(
-            ' : ' + 
+            ' | ' +
             sectionItem.desc);
 
         item.appendChild(label);
@@ -139,8 +73,8 @@ PageController.prototype.buildResume = function(element, resumeSections) {
         return sectionEl;
     }
 
-    for(var i = 0; i < resumeSections.length; i++) {
-        element.appendChild(createSection(resumeSections[i]));
+    for(var i = 0; i < sections.length; i++) {
+        element.appendChild(createSection(sections[i]));
     }
 }
 
@@ -165,10 +99,12 @@ function run() {
     pageController.setText(document.getElementById('name-holder'), config.name);
 
     // Set the description
-    pageController.setText(document.getElementById('desc-holder'), config.about);
+    pageController.setText(
+        document.getElementById('desc-holder'),
+        config.taglines[Math.floor(Math.random() * config.taglines.length)]);
 
-    // Build the resume
-    pageController.buildResume(document.getElementById('resume'), config.resumeSections);
+    // Build the sections
+    pageController.buildSections(document.getElementById('sections'), config.sections);
 
     // Set the links
     pageController.setLinks(document.getElementById('links-holder'), config.links);

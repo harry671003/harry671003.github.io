@@ -4,7 +4,8 @@ var config = {
         "Ninja Software Engineer",
         "Chasing dreams since 1993",
         "SDE II @ Amazon",
-        "The odd one"
+        "The odd one",
+        "AKA @harry671003"
     ],
     "links": [
         {

@@ -65,6 +65,10 @@ var config = {
                 {
                     "label": "Hitting the gym",
                     "desc": "257 days"
+                },
+                {
+                    "label": "Social media boycott",
+                    "desc": "1 days"
                 }
             ]
         }

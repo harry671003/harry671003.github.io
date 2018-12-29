@@ -68,7 +68,7 @@ var config = {
                 },
                 {
                     "label": "Social media boycott",
-                    "desc": "1 days"
+                    "desc": "test days"
                 }
             ]
         }

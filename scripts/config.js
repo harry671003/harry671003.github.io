@@ -3,7 +3,8 @@ var config = {
     "taglines": [
         "Ninja Software Engineer",
         "Chasing dreams since 1993",
-        "SDE II @ Amazon"
+        "SDE II @ Amazon",
+        "The odd one"
     ],
     "links": [
         {

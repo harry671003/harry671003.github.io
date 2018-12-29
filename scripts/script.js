@@ -79,7 +79,7 @@ PageController.prototype.buildSections = function(element, sections) {
 }
 
 /**
- *
+ * Creates a new link element
  *
  * @param {any} link
  * @returns
@@ -93,7 +93,44 @@ PageController.prototype._createNewLinkElement = function(link) {
     return li;
 }
 
-function run() {
+/**
+ * Helper class.
+ */
+function Helper() {}
+
+/**
+ * A function to return UUID like string
+ */
+Helper.prototype.fakeUUID = function() {
+    return crypto.getRandomValues(new Uint32Array(4)).join('-');
+}
+
+/**
+ * Helper function to load JS dynamically.
+ */
+Helper.prototype.loadJSDynamically = function(file) {
+    var el = document.createElement("script");
+    el.type = "application/javascript";
+    el.src = file;
+    document.body.appendChild(el);
+}
+
+/**
+ * Preload
+ */
+function preload() {
+    var helper = new Helper();
+
+    // Force the browser to load a fresh copy of config.js
+    helper.loadJSDynamically(
+        "./scripts/config.js?v=" + helper.fakeUUID()
+    );
+}
+
+/**
+ * Build the page
+ */
+function buildPage(config) {
     var pageController = new PageController();
     // Set the name
     pageController.setText(document.getElementById('name-holder'), config.name);
@@ -110,5 +147,13 @@ function run() {
     pageController.setLinks(document.getElementById('links-holder'), config.links);
 }
 
-// Set run
-window.onload = run;
+/**
+ * Entry point
+ */
+(function() {
+    preload();
+
+    window.onload = function() {
+        buildPage(window.config);
+    };
+})()

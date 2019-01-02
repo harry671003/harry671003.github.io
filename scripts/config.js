@@ -64,7 +64,7 @@ var config = {
             "items": [
                 {
                     "label": "Hitting the Gym",
-                    "desc": "257 days"
+                    "desc": "258 days"
                 },
                 {
                     "label": "Social Media boycott",

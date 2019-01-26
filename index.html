@@ -3,8 +3,8 @@
 <head>
   <title>Harry John</title>
   <!-- BEGIN stylesheets -->
-  <link rel='stylesheet' href='./css/normalize.css?v=c8e76725-c7c5-451b-b0ca-0faad3ca0cab'/>
-  <link rel='stylesheet' href='./css/style.css?v=c8e76725-c7c5-451b-b0ca-0faad3ca0cab'/>
+  <link rel='stylesheet' href='./css/normalize.css?v=2101d495-8f6e-467a-85b1-5456695c8486'/>
+  <link rel='stylesheet' href='./css/style.css?v=2101d495-8f6e-467a-85b1-5456695c8486'/>
   <link href="//fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
   <!-- END stylesheets -->
 
@@ -39,10 +39,11 @@
 </head>
 
 <body>
-  <div id='container'>
-    <div class='padding'>
+  <div id='container' class="not-loaded">
+    <div id='loading'>Loading..</div>
+    <div id='content'>
       <div id='face'>
-        <img src='./images/face.jpeg?v=c8e76725-c7c5-451b-b0ca-0faad3ca0cab'/>
+        <img src='./images/face.jpeg?v=2101d495-8f6e-467a-85b1-5456695c8486'/>
       </div>
       <div id='name'>
         <noscript>
@@ -50,11 +51,12 @@
         </noscript>
         <h1 id='name-holder'>
             <!-- Value set in JS -->
-            Loading...
         </h1>
       </div>
       <div id='desc'>
-        <p id='desc-holder'><!-- Value set in JS --></p>
+        <p id='desc-holder'>
+        <!-- Value set in JS -->
+        </p>
       </div>
       <div id='sections'></div>
       <div id='links'>
@@ -67,6 +69,6 @@
       </noscript>
     </div>
   </div>
-  <script src='./scripts/script.js?v=c8e76725-c7c5-451b-b0ca-0faad3ca0cab'></script>
+  <script src='./scripts/script.js?v=2101d495-8f6e-467a-85b1-5456695c8486'></script>
 </body>
 </html>

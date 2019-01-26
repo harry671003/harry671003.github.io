@@ -5,12 +5,13 @@ var config = {
         "Chasing dreams since 1993",
         "SDE II @ Amazon",
         "The odd one",
-        "AKA @harry671003"
+        "🌲 🌊 🏔",
+        "☯",
     ],
     "links": [
         {
             "label": "blog",
-            "url": "/blog"
+            "url": "https://harryjohn.io/blog"
         },
         {
             "label": "github",
@@ -36,7 +37,7 @@ var config = {
             ]
         },
         {
-            "title": "Side Projects",
+            "title": "Projects",
             "items": [
                 {
                     "label": "S.Y.L (Sylphrena)",
@@ -54,7 +55,11 @@ var config = {
             "title": "Education",
             "items": [
                 {
-                    "label": "B-Tech",
+                    "label": "Advanced Certification in AI & ML",
+                    "desc": "IIIT-H (2019 January - Present)"
+                },
+                {
+                    "label": "Bachelor of Technology",
                     "desc": "Amrita Amrita Vishwa Vidyapeetham (2011 - 15)"
                 }
             ]
@@ -63,36 +68,44 @@ var config = {
             "title": "Stats",
             "items": [
                 {
-                    "label": "Hitting the Gym",
-                    "desc": "258 days"
+                    "label": "Gym",
+                    "desc": "272 days"
                 },
                 {
-                    "label": "Social Media boycott",
-                    "desc": diffDays(
-                        new Date(), new Date(Date.parse('December 28, 2018'))
-                    ) + " days"
+                    "label": "NO Social Media",
+                    "desc": countDays('December 28, 2018')
                 },
                 {
-                    "label": "Time spent on planet Earth",
-                    "desc": diffHours(
-                        new Date(), new Date(Date.parse('February 7, 1993'))
-                    ) + " hours"
+                    "label": "Hours on Earth",
+                    "desc": countHours('February 7, 1993')
                 }
             ]
         }
     ]
 }
 
+function countDays(start) {
+    return diffDays(
+        new Date(), new Date(Date.parse(start))
+    ) + " days";
+}
+
+function countHours(start) {
+    return diffHours(
+        new Date(), new Date(Date.parse(start))
+    ) + " hours";
+}
+
 function diffDays(firstDate, secondDate) {
     console.log(firstDate, secondDate);
-    var oneDay = 24*60*60*1000;
+    var oneDay = 24 * 60 * 60 * 1000;
 
     return Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
 }
 
 function diffHours(firstDate, secondDate) {
     console.log(firstDate, secondDate);
-    var oneHour = 60*60*1000;
+    var oneHour = 60 * 60 * 1000;
 
     return Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneHour)));
 }

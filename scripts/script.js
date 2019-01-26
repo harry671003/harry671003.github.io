@@ -30,7 +30,7 @@ PageController.prototype.setLinks = function(element, links) {
  */
 PageController.prototype.buildSections = function(element, sections) {
     var createSectionHeader = function(title) {
-        var header = document.createElement('h3');
+        var header = document.createElement('h2');
         var titleText = document.createTextNode(title);
         header.appendChild(titleText);
 
@@ -38,20 +38,28 @@ PageController.prototype.buildSections = function(element, sections) {
     }
 
     var createSectionItem = function(sectionItem) {
-        var item = document.createElement('p');
-        var label = null;
+        var item = document.createElement('div');
+
+        var label = document.createElement('h3');
+        label.className = 'label'
         if(sectionItem.url) {
-            label = document.createElement('a');
-            label.setAttribute('href', sectionItem.url);
-            var labelText = document.createTextNode(sectionItem.label);
-            label.appendChild(labelText);
+            labelLink = document.createElement('a');
+            labelLink.setAttribute('href', sectionItem.url);
+            labelLink.appendChild(
+                document.createTextNode(
+                    sectionItem.label));
+            label.appendChild(labelLink);
         }
         else {
-            label = document.createTextNode(sectionItem.label);
+            label.appendChild(
+                document.createTextNode(
+                    sectionItem.label));
         }
-        var desc = document.createTextNode(
-            ' | ' +
-            sectionItem.desc);
+
+        var desc = document.createElement('p');
+        desc.appendChild(
+            document.createTextNode(
+                sectionItem.desc));
 
         item.appendChild(label);
         item.appendChild(desc);
@@ -155,5 +163,6 @@ function buildPage(config) {
 
     window.onload = function() {
         buildPage(window.config);
+        document.getElementById('container').className = "";
     };
 })()

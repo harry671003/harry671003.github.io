@@ -70,7 +70,7 @@ var config = {
             "items": [
                 {
                     "label": "Gym",
-                    "desc": "272 days"
+                    "desc": "284 days"
                 },
                 {
                     "label": "NO Social Media",

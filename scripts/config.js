@@ -56,11 +56,12 @@ var config = {
             "items": [
                 {
                     "label": "Advanced Certification in AI & ML",
+                    "url": "https://iiit-h.talentsprint.com/aiml/index.html",
                     "desc": "IIIT-H (2019 January - Present)"
                 },
                 {
                     "label": "Bachelor of Technology",
-                    "desc": "Amrita Amrita Vishwa Vidyapeetham (2011 - 15)"
+                    "desc": "Amrita Vishwa Vidyapeetham (2011 - 15)"
                 }
             ]
         },

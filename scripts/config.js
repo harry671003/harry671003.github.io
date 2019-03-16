@@ -69,7 +69,7 @@ var config = {
             "title": "Stats",
             "items": [
                 {
-                    "label": "Gym",
+                    "label": "Working Out",
                     "desc": "301 days"
                 },
                 {

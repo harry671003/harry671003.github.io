@@ -74,7 +74,7 @@ var config = {
                 },
                 {
                     "label": "Hours on Earth",
-                    "desc": countHours('February 7, 1993')
+                    "desc": countHours('February 7, 1993') + " hours"
                 },
                 {
                     "label": "Amount of Coffee",
@@ -88,13 +88,13 @@ var config = {
 function countDays(start) {
     return diffDays(
         new Date(), new Date(Date.parse(start))
-    ) + " days";
+    );
 }
 
 function countHours(start) {
     return diffHours(
         new Date(), new Date(Date.parse(start))
-    ) + " hours";
+    );
 }
 
 function diffDays(firstDate, secondDate) {

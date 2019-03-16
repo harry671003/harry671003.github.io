@@ -70,15 +70,15 @@ var config = {
             "items": [
                 {
                     "label": "Gym",
-                    "desc": "284 days"
-                },
-                {
-                    "label": "NO Social Media",
-                    "desc": countDays('December 28, 2018')
+                    "desc": "301 days"
                 },
                 {
                     "label": "Hours on Earth",
                     "desc": countHours('February 7, 1993')
+                },
+                {
+                    "label": "Amount of Coffee",
+                    "desc": countDays('June 5, 2015') * 3 + " cups"
                 }
             ]
         }

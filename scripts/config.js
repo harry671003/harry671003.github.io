@@ -74,11 +74,11 @@ var config = {
                 },
                 {
                     "label": "Hours on Earth",
-                    "desc": countHours('February 7, 1993') + " hours"
+                    "desc": countHours('February 7, 1993').toLocaleString() + " hours"
                 },
                 {
                     "label": "Amount of Coffee",
-                    "desc": countDays('June 5, 2015') * 3 + " cups"
+                    "desc": (countDays('June 5, 2015') * 3).toLocaleString() + " cups"
                 }
             ]
         }

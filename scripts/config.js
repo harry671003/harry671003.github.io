@@ -28,11 +28,11 @@ var config = {
             "items": [
                 {
                     "label": "Software Development Engineer II",
-                    "desc": "Amazon Web Services, Vancouver - (November 2019 - Present)"
+                    "desc": "AWS, Vancouver - (November 2019 - Present)"
                 },
                 {
                     "label": "Software Development Engineer II",
-                    "desc": "Amazon India Development Center, Hyderabad - (June 2018 - October 2019)"
+                    "desc": "Amazon, Hyderabad - (June 2018 - October 2019)"
                 },
                 {
                     "label": "Software Engineer",

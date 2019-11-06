@@ -28,7 +28,11 @@ var config = {
             "items": [
                 {
                     "label": "Software Development Engineer II",
-                    "desc": "Amazon (June 2018 - Present)"
+                    "desc": "Amazon Web Services, Vancouver (November 2019 - Present)"
+                },
+                {
+                    "label": "Software Development Engineer II",
+                    "desc": "Amazon India Development Center, Hyderabad (June 2018 - October 2019)"
                 },
                 {
                     "label": "Software Engineer",
@@ -68,10 +72,6 @@ var config = {
         {
             "title": "Stats",
             "items": [
-                {
-                    "label": "Working Out",
-                    "desc": "301 days"
-                },
                 {
                     "label": "Hours on Earth",
                     "desc": countHours('February 7, 1993').toLocaleString() + " hours"

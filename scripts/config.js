@@ -44,11 +44,6 @@ var config = {
             "title": "Projects",
             "items": [
                 {
-                    "label": "S.Y.L (Sylphrena)",
-                    "url": "https://github.com/harry671003/syl-core",
-                    "desc": "Building a bot with better context management. (2018)"
-                },
-                {
                     "label": "ng2-appinsights",
                     "url": "https://www.npmjs.com/package/ng2-appinsights",
                     "desc": "App insights logging for Angular 2+ apps. (2017)"
@@ -61,7 +56,7 @@ var config = {
                 {
                     "label": "Advanced Certification in AI & ML",
                     "url": "https://iiit-h.talentsprint.com/aiml/index.html",
-                    "desc": "IIIT-H (2019 January - Present)"
+                    "desc": "IIIT-H (2019 January - 2019 April)"
                 },
                 {
                     "label": "Bachelor of Technology",

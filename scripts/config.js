@@ -27,8 +27,12 @@ var config = {
             "title": "Work",
             "items": [
                 {
+                    "label": "Senior Software Engineer",
+                    "desc": "AWS Observability, Vancouver (December 2022 - Present)"
+                },
+                {
                     "label": "Software Development Engineer II",
-                    "desc": "AWS, Vancouver (November 2019 - Present)"
+                    "desc": "AWS Observability, Vancouver (November 2019 - December 2022)"
                 },
                 {
                     "label": "Software Development Engineer II",
